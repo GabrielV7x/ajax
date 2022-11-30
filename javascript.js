@@ -6,3 +6,9 @@ const connection = fetch(url)
   .then(blob => blob.json())
   .then(data => cities.push(...data))
 console.log(connection)
+
+
+// compare the word typed with the array
+function findMathes(wordTyped, cities) {
+
+}
